@@ -1,0 +1,140 @@
+/* CSS Document */
+@charset "utf-8";
+*{ margin:0; padding:0; list-style:none;}
+	input[type="button"], 
+	input[type="submit"], 
+	input[type="reset"] 
+	{
+	-webkit-appearance: none;
+	font-family:Arial, Helvetica, sans-serif}
+a{ text-decoration:none;}
+body{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	top:0px; bottom:0px; left:0px; right:0px;
+	min-width:320px;
+	}
+.left{
+	position: absolute;
+	top:5%;
+
+	left:3%;
+	/*float:left;
+	margin-left:1%;*/
+	}
+.right{
+	position: absolute;
+	top:5%;
+	right:3%;
+	/*float:right;
+	margin-right:1%;*/
+	}
+.header{
+	/*height:50px;*/
+	text-align:center;
+	width:100%;
+	max-width:640px;
+	/*height:35%;*/
+	background:#2196F3;
+	position: relative;}
+.header img{
+	vertical-align:middle;	
+	/*text-height:auto;*/
+    /*margin-top:6px;	*/	
+	width:8%;}
+.header span{  
+	color:#FFF;
+	font-size:24px;
+	line-height:230%;
+	}
+.list{
+	line-height:300%;;
+	text-align:center;
+	}
+.list ul li{
+	border-bottom:1px solid #e8e8e8;}
+.list p{
+	/*padding:0 1%;*/
+	color:#494949;
+	}
+.list span{
+	font-size:0.8em;
+	/*float:right;*/}
+.foot{
+	margin-top:1%;
+	/*line-height:130px;*/
+	/*margin-top:95%;*/
+	/*width:100%;
+	margin:0 auto;*/
+	color:#838383;
+	text-align:center;
+	
+}
+<!--浠ヤ笅涓洪�氱煡閫氬憡璇︽儏椤垫牱寮�===========================================================================================================									==========================================================================================================================-->
+.text{
+	width:100%;
+	max-width:640px;
+	
+	}
+.text p{
+	margin-top:8%;
+	/*text-align:center;*/
+	line-height:30px;
+	text-indent:2em;
+	
+	}
+.center{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	font-size:1.5em;
+	}
+.text span{
+	
+	color:#747474;
+	font-size:0.6em;}
+<!--浠ヤ笅涓哄叕鍔″憳绠＄悊鏍峰紡===========================================================================================================									==========================================================================================================================-->
+.gongwuyuan{
+	margin-top:15px;}
+.gongwuyuan{
+	
+	  width:100%;
+	/*  margin:10px auto; */
+	  max-width:640px; 
+	  min-width:320px;
+	  height:80px;
+	  margin-top:5%;
+	  display:block;
+	  border-bottom:1px solid #c9c9c9;
+	  }
+.pic{
+	width:25%;
+	float:left;
+	}
+.pic img{
+/*	width:70%;*/
+}
+.neirong{
+	width:50%;
+	float:left;
+	color:#201f1f;
+	/*line-height:20px;  white-space:nowrap; height:40px;*/
+	 word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;/*瀵硅薄浣滀负浼哥缉鐩掑瓙妯″瀷鏄剧ず*/
+	  -webkit-box-orient: vertical; /** 璁剧疆鎴栨绱几缂╃洅瀵硅薄鐨勫瓙鍏冪礌鐨勬帓鍒楁柟寮� **/
+	 overflow:hidden; 
+	 margin-top:10px; text-overflow:ellipsis;   -webkit-line-clamp:2; /*鏄剧ず鐨勮鏁�*/
+}
+.detail{
+	float:right;
+	width:20%;
+	margin-top:5%;
+	line-height:30px;
+	background:#f28502;
+	color:#FFF;
+	border-radius:5px;
+	font-size:0.8em;
+	padding:1px 1px;
+	text-align:center;}

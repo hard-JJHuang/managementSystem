@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>闪光灯</title>
+<style>
+.div {
+	width:300px;
+	height:200px;
+	margin:100px auto;
+	background:url(http://www.100sucai.com/img/demo/1373.png)
+}
+#animation {
+-webkit-animation:flash 1s .2s ease both;
+-moz-animation:flash 1s .2s ease both;
+}
+@-webkit-keyframes flash {
+0%, 50%, 100% {
+opacity: 1;
+}
+25%, 75% {
+opacity: 0;
+}
+}
+@-moz-keyframes flash {
+0%, 50%, 100% {
+opacity: 1;
+}
+25%, 75% {
+opacity: 0;
+}
+}
+</style>
+</head>
+<body>
+<div id="animation" class="div"></div>
+</body>
+</html>
+       
